@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="register.php" method="get">
+        <label for="nema"> الاسم كامل :</label>
+        <input type="text" name="nema" id="nema" placeholder="ادخل الاسم كامل">
+        <br>
+        <br>
+        <label for="aemail">البريد الإلكتروني:</label>
+        <input type="email" name="aemail" id="aemail" placeholder="example@email.com">
+        <br>
+        <br>
+        <label for="tel"> رقم الهاتف : </label>
+        <input type="tel" name="tel " id="tel" placeholder="مثال :05xxxxxxxx">
+
+        <br> <br>
+
+        <label for="subject">اختر الموضوع :</label>
+        <select name="subject" id="subject">
+            <option value="استفسار">استفسار</option>
+            <option value="مشكله تقنيه ">مشكله تقنيه</option>
+            <option value="تعاون">تعاون </option>
+            <option value="اخرى">اخرى </option>
+        </select>
+        <br> <br>
+        <label for="message">رسالتك </label><br>
+        <textarea name="message" id="message" cols="30" rows="4" placeholder="اكتب رسالتك هنا"></textarea>
+
+
+        <p> طريقه التواصل المفضله</p>
+        <input type="radio" name="email" id="email" value="البريد الاكتروني ">
+        <label for="email">البريد الاكتروني </البريد الاكتروني></label>
+        <input type="radio" name="phone" id="phone" value="الهاتف  ">
+        <label for="phone">الهاتف </label><br>
+
+        <br><br>
+
+
+        <label for="terms-con">اوافق على الشروط والاحكام</label>
+        <input type="checkbox" id="terms-con" name="terms-con" value="اوافق على الشروط والاحكام">
+
+        <br>
+
+        <input type="submit" value="إرسال ">
+        <input type="reset" value="إعاده تعيين ">
+        <br><br>
+
+    </form>
+
+</body>
+
+</html>
